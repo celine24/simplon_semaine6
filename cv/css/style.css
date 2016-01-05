@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin:0;
+    background-color: #C8F7C5;
+    font-family: "Times New Roman", sans-serif;
+    background-image:url("../img/subtle_white_mini_waves.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+
+* { box-sizing: border-box; }
+
+h1,h2,h3,h4,h5,h6, .lead { color: #1E824C; }
+
+li { list-style-type: square; }
+
+a, a:visited {
+    color: #049372;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover, a:focus { color: #3FC380; }
+
+header, footer { 
+    width:100%; 
+    background-image:url("../img/congruent_pentagon.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    margin:0;
+    padding:20px 0 0 0;
+}
+
+header { border-bottom:5px solid #049372; }
+
+footer { 
+    border-top:5px solid #049372; 
+    position:absolute; 
+    bottom:0; 
+}
+
+.header-title { text-align: left; }
+
+footer address p { margin: 2px 0; }
+
+footer a, footer a:hover { color: #1E824C; }
+
+.header-img-identite { width: 250px; }
+
+.main-title { 
+    text-transform: uppercase; 
+    font-family: arial;
+    text-decoration: underline;
+}
+
+footer iframe { 
+    width: 100%; 
+    height: 150px;
+}
