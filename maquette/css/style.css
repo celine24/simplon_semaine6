@@ -1,0 +1,104 @@
+body {
+    background-color:#999999;
+}
+
+
+header {
+    background-color:#37bbd2;
+    height:200px;
+}
+
+main {
+    padding-top:10px;
+}
+
+.block-beach {
+    background-color:#73c6fa;
+}
+
+.block-ice-cream {
+    background-color:#e57373;
+}
+
+.block-cocktail {
+    background-color:#ffd358;
+}
+
+
+
+
+.entertainment, .geography {
+    background-color:#fa8a7e;
+    height:200px;
+}
+
+.sports, .tv-and-movies {
+    background-color:#b584ff;
+    height:200px;
+}
+
+.food-and-drink, .science-and-nature {
+    background-color:#b7f6c9;
+    height:200px;
+}
+
+.general-knowledge {
+    background-color:#fbff86;
+    height:200px;
+}
+
+.history, .music {
+    background-color:#7efeff;
+    height:200px;
+}
+.geography {
+    height:400px;
+}
+
+
+
+
+.block-large-icon {
+    height:400px;
+    line-height:350px;
+    text-align:center;
+}
+
+.block-icon {
+    height:300px;
+    line-height:250px;
+}
+
+
+
+.img {
+    width:130px;
+    height:130px;
+}
+
+.img-large {
+    width:180px;
+    height:180px;
+}
+
+
+.title h2 {
+    color:white;
+    font-size:1.2em;
+    font-family:arial, sans-serif;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.title {
+    height:50px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+
+.block-beach .title { background-color:#73a9fa; }
+.block-cocktail .title { background-color:#ffb658; }
+.block-ice-cream .title { background-color:#d24e4e; }
+.block-cocktail .title { background-color:#ffb658; }
+.block-cocktail .title { background-color:#ffb658; }
