@@ -14,20 +14,13 @@ header {
     padding:10px;
 }
 
-h1 {
-    color:white;
-    line-height:100px;
-}
+h1 { color:white; line-height:100px; }
 
-.left {
-    float:left;
-    margin-left: 15px;
-}
+.left { float:left; margin-left: 15px; }
 
-.right {
-    float:right;
-    margin-right: 15px;
-}
+.right { float:right; margin-right: 15px; }
+
+main { padding-bottom:5px; }
 
 .container-fluid {
     padding-right: 0;
@@ -36,15 +29,9 @@ h1 {
     margin-right:-4px;
 }
 
-.row {
-    margin-right: 0;
-    margin-left: 0;
-}
+.row { margin-right: 0; margin-left: 0; }
 
-.col-md-4, .col-md-6, .col-md-12 {
-    padding-right: 0;
-    padding-left: 0;
-}
+.col-md-4, .col-md-6, .col-md-12 { padding-right: 0; padding-left: 0; }
 
 .beach, .boat { background-color: #73c6fa; }
 .ice-cream, .diving { background-color: #e57373; }
@@ -61,7 +48,7 @@ h1 {
     margin:5px;
     position:relative;
 }
-.block-large { height:500px; }
+.block-large { height:510px; }
 .block-small { height:250px; }
 
 .icon { display: block; margin: auto; }
@@ -94,18 +81,8 @@ h1 {
     height: 20px;
     background-repeat: no-repeat;
 }
-
-.arrow-thin {
-    background: url(../img/arrow-thin.png);
-    
-    background-size: 20px 20px;
-}
-
-.arrow-large {
-    background: url(../img/arrow-large.png);
-    
-    background-size: 20px 20px;
-}
+.arrow-thin { background: url(../img/arrow-thin.png); background-size: 20px 20px; }
+.arrow-large { background: url(../img/arrow-large.png); background-size: 20px 20px; }
 
 .link-beach, .link-boat { background-color:#73a9fa; }
 .link-cocktail, .link-surf, .link-game { background-color:#ffb658; }
